@@ -45,12 +45,17 @@ import { container, item } from "../composables/animation";
           </div>
           <div class="overflow-hidden">
             <li v-motion :initial="item.hidden" :enter="item.show1">
-              <a href="">Github</a>
+              <a href="https://github.com/salskhal" target="blank">Github</a>
             </li>
           </div>
           <div class="overflow-hidden">
             <li v-motion :initial="item.hidden" :enter="item.show2">
               <a href="">Linkedin</a>
+            </li>
+          </div>
+          <div class="overflow-hidden">
+            <li v-motion :initial="item.hidden" :enter="item.show3">
+              <a href="https://salskhal.vercel.app" target="blank">Portfolio</a>
             </li>
           </div>
         </ul>

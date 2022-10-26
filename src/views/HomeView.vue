@@ -28,7 +28,7 @@ const d = new Date();
         }"
         class="pickle"
       >
-        Hello World
+        Khalid Salman
       </h1>
     </div>
     <!-- Content div -->
@@ -42,11 +42,11 @@ const d = new Date();
       >
         <div class="overflow-hidden">
           <h2 class="" v-motion :initial="item.hidden" :enter="item.show">
-            Design
+            FrontEnd
           </h2>
         </div>
         <div class="overflow-hidden">
-          <h2 v-motion :initial="item.hidden" :enter="item.show1">Company</h2>
+          <h2 v-motion :initial="item.hidden" :enter="item.show1">Developer</h2>
         </div>
         <div class="overflow-hidden">
           <h2 v-motion :initial="item.hidden" :enter="item.show1">
@@ -62,13 +62,13 @@ const d = new Date();
         :enter="container.show"
       >
         <div class="overflow-hidden">
-          <h3 v-motion :initial="item.hidden" :enter="item.show">This pickle gonna make you smile</h3>
+          <h3 v-motion :initial="item.hidden" :enter="item.show">Software Engineer</h3>
         </div>
         <div class="overflow-hidden">
-          <h3 v-motion :initial="item.hidden" :enter="item.show1">Scottish designs to make you happy</h3>
+          <h3 v-motion :initial="item.hidden" :enter="item.show1">Lover of Coffee☕</h3>
         </div>
         <div class="overflow-hidden">
-          <h3 v-motion :initial="item.hidden" :enter="item.show2">Click contact for cool transition</h3>
+          <h3 v-motion :initial="item.hidden" :enter="item.show2">On the path of learning Everything</h3>
         </div>
       </div>
     </div>

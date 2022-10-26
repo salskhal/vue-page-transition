@@ -13,4 +13,6 @@ export const item = {
     y: 0, opacity: 1, transition: { duration: 500, delay: 300 } },
   show2: { 
     y: 0, opacity: 1, transition: { duration: 500, delay: 450 } },
+  show3: { 
+    y: 0, opacity: 1, transition: { duration: 500, delay: 600 } },
 };
